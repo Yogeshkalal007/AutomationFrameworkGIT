@@ -48,5 +48,13 @@ public class EdigeTestcases extends BaseTest {
 		 System.out.println("Second Testcase of EdigeTestcases");
 	}
 	
+	public void statuscode() {
+		
+		
+		
+		driver.get("https://the-internet.herokuapp.com/status_codes");
+		
+		driver.findElement(By.xpath("(//li//a)[1]")).click();
+	}
 
 }
