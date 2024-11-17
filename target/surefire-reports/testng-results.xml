@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T22:09:06 IST" name="Parallel Tests" finished-at="2024-11-16T22:09:14 IST" duration-ms="7635">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T22:09:06 IST" name="ChromeTest" finished-at="2024-11-16T22:09:12 IST" duration-ms="6271">
+      <class name="AutomationFramework.HomePageValidation">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:AutomationFramework.HomePageValidation@131774fe]" started-at="2024-11-16T22:09:06 IST" name="setup" finished-at="2024-11-16T22:09:08 IST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="links()[pri:-1, instance:AutomationFramework.HomePageValidation@131774fe]" started-at="2024-11-16T22:09:08 IST" name="links" finished-at="2024-11-16T22:09:12 IST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method signature="newTab()[pri:2, instance:AutomationFramework.HomePageValidation@131774fe]" started-at="2024-11-16T22:09:12 IST" name="newTab" finished-at="2024-11-16T22:09:12 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method signature="verifyWindowTitle()[pri:3, instance:AutomationFramework.HomePageValidation@131774fe]" started-at="2024-11-16T22:09:12 IST" name="verifyWindowTitle" finished-at="2024-11-16T22:09:12 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowTitle -->
+        <test-method is-config="true" signature="killSession()[pri:0, instance:AutomationFramework.HomePageValidation@131774fe]" started-at="2024-11-16T22:09:12 IST" name="killSession" finished-at="2024-11-16T22:09:12 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killSession -->
+      </class> <!-- AutomationFramework.HomePageValidation -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-11-16T22:09:06 IST" name="FirefoxTest" finished-at="2024-11-16T22:09:14 IST" duration-ms="7635">
+      <class name="AutomationFramework.EdigeTestcases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:AutomationFramework.EdigeTestcases@77888435]" started-at="2024-11-16T22:09:06 IST" name="setup" finished-at="2024-11-16T22:09:08 IST" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkBox()[pri:0, instance:AutomationFramework.EdigeTestcases@77888435]" started-at="2024-11-16T22:09:08 IST" name="checkBox" finished-at="2024-11-16T22:09:12 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="dropDown()[pri:0, instance:AutomationFramework.EdigeTestcases@77888435]" started-at="2024-11-16T22:09:12 IST" name="dropDown" finished-at="2024-11-16T22:09:14 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method is-config="true" signature="killSession()[pri:0, instance:AutomationFramework.EdigeTestcases@77888435]" started-at="2024-11-16T22:09:14 IST" name="killSession" finished-at="2024-11-16T22:09:14 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killSession -->
+      </class> <!-- AutomationFramework.EdigeTestcases -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>
